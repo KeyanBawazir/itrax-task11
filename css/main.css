@@ -1,0 +1,101 @@
+
+/* commn styling  */
+.clear {
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.full-width {
+    width: 100%;
+}
+.full-height {
+    height: 100%;
+}
+/* ------------- */
+body, 
+ul  {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width:90%;
+    height: 400px;
+    background-color: gray;
+    margin: auto;
+}
+.footer-terms {
+    /* width:100%; */
+    height: 80%;
+    background-color: #F4F4F4;
+    margin: auto;
+}
+.term {
+    width: 19%;
+    /* height: 100%; */
+    margin-left: 6px;
+}
+.term-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #4868db;
+    font-size: 18px;
+}
+.term > ul > li {
+    width:160px;
+    height: 27px;
+    margin: 10px;
+}
+.term > ul > li > a{
+    display: block;
+    /* width:100%;
+    height: 100%; */
+    color: #888;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+.term > ul > li > a:hover {
+    color: #4868db; 
+} 
+.footer-social-links {
+    /* width:100%; */
+    height: 20%;
+    background-color: #EEEEEE;
+    margin-top: 0;
+}
+.copyrigth {
+    width: 50%;
+    /* height: 100%; */
+    font-size: 17px;
+    color: #777;
+}
+.copyrigth p {
+    margin: 28px 40px;
+}
+.social-links {
+    width: 50%;
+    /* height: 100%; */
+    float: right;
+}
+.social-links ul {
+    float: right;
+    margin:20px;
+}
+.social-links ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+.social-links ul li a i {
+    color: #777;
+}
+.social-links ul li a i:hover {
+    color: #4868db;
+}
+
+    
